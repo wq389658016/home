@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+HTML {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #001e3b; OVERFLOW: hidden
+}
+.wrap {
+	TEXT-ALIGN: center; MARGIN: 0px auto; WIDTH: 1003px; BACKGROUND: url(../img/login/login_01.jpg) no-repeat center top; CLEAR: both
+}
+IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+FIELDSET {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+INPUT {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BACKGROUND-COLOR: transparent; COLOR: #88d2eb; FONT-SIZE: 14px; BORDER-TOP: medium none; CURSOR: pointer; FONT-WEIGHT: 600; BORDER-RIGHT: medium none; PADDING-TOP: 4px
+}
+#lay01 {
+	HEIGHT: 80px
+}
+#lay02 {
+	BACKGROUND-IMAGE: url(../img/login/login_02.jpg); HEIGHT: 90px
+}
+#lay03 {
+	BACKGROUND-IMAGE: url(../img/login/login_03.jpg); HEIGHT: 126px
+}
+#lay04 {
+	BACKGROUND-IMAGE: url(../img/login/login_04.jpg); HEIGHT: 123px
+}
+#layform {
+	POSITION: relative; MARGIN: 0px auto; WIDTH: 645px; HEIGHT: 123px
+}
+#input_name {
+	POSITION: absolute; WIDTH: 166px; HEIGHT: 26px; TOP: 40px; LEFT: 196px
+}
+#input_pwd {
+	POSITION: absolute; WIDTH: 166px; HEIGHT: 26px; TOP: 91px; LEFT: 196px
+}
+#input_remdiv {
+	POSITION: absolute; COLOR: #fff; FONT-SIZE: 14px; TOP: 100px; LEFT: 420px
+}
+#input_sub {
+	POSITION: absolute; TEXT-INDENT: -20em; WIDTH: 153px; BACKGROUND: url() no-repeat; HEIGHT: 39px; TOP: 56px; LEFT: 423px
+}
+#lay05 {
+	BACKGROUND-IMAGE: url(../img/login/login_05.jpg); HEIGHT: 78px
+}
+#lay06 {
+	BACKGROUND-IMAGE: url(../img/login/login_06.jpg); HEIGHT: 87px
+}
+#lay07 {
+	BACKGROUND-IMAGE: url(../img/login/login_07.jpg); HEIGHT: 77px
+}

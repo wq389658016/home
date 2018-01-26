@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+  
+<struts>
+
+ <!--指定Web应用的默认编码集.该属性对于处理中文请求参数非常有用,对于获取中文请求参数值,应该将该属性值设置为GBK或者GB2312;   
+           提示:当设置该参数为GBK时,相当于调用HttpServletRequest的setCharacterEncoding方法. -->  
+ <constant name="struts.i18n.encoding" value="UTF-8" />   
+ 
+<!-- 指定Struts 2默认的ObjectFactory Bean,该属性默认值是spring. -->  
+<constant name="struts.objectFactory" value="spring" /> 
+
+    <package name="a" namespace="/" extends="struts-default">
+        <action name="userAction"  class="com.zydlove.home.action.UserAction"   method="queryUser">
+        	<result name="success">/plugin/photo.jsp</result>
+        	<result name="login">/index.jsp</result>
+        </action>
+        <action name="ztreeAction"  class="com.zydlove.home.action.ZtreeAction"   method="queryByZtree">
+        	<result name="ztree"  type="stream"></result>
+        </action>
+    </package>
+    
+</struts>
